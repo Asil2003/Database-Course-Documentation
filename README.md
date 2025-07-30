@@ -50,20 +50,29 @@ Understanding who does what in a database project is crucial. Below are key role
 
 ## 4️⃣ Types of Databases
 
-### Relational vs. Non-Relational
+Understanding different types of databases helps in choosing the right one based on the application’s needs.
 
-| Type            | Examples              | Description |
-|-----------------|-----------------------|-------------|
-| Relational      | MySQL, PostgreSQL     | Structured, uses tables and SQL |
-| Non-Relational  | MongoDB, Cassandra    | Document/Key-value store, flexible schema |
+---
 
-### Centralized vs. Distributed vs. Cloud
+### 🔄 Relational vs. Non-Relational
 
-| Type         | Description                                | Example Use Case              |
-|--------------|--------------------------------------------|-------------------------------|
-| Centralized  | One server handles all operations          | Small-scale apps, personal use |
-| Distributed  | Multiple nodes across locations            | Real-time systems, IoT apps   |
-| Cloud        | Hosted by providers, scalable & on-demand | Web apps (AWS, Azure, GCP)    |
+| Type             | Description                                                                 | Examples              |
+|------------------|-----------------------------------------------------------------------------|-----------------------|
+| **Relational**   | Uses structured tables with rows and columns. Supports SQL queries and relationships through keys. | MySQL, PostgreSQL, Oracle |
+| **Non-Relational** | Uses flexible formats like documents, key-value pairs, graphs, or columns. Suitable for big data and fast-changing data. | MongoDB, Cassandra, Firebase |
+
+---
+
+### 🗺️ Centralized vs. Distributed vs. Cloud Databases
+
+| Type             | Description                                                                 | Example Use Case                |
+|------------------|-----------------------------------------------------------------------------|----------------------------------|
+| **Centralized**   | All data is stored and managed in a single location or server.             | Small business inventory system |
+| **Distributed**   | Data is spread across multiple servers or locations but appears as one system. | Global banking or e-commerce   |
+| **Cloud**         | Data is hosted by third-party providers with on-demand scalability.         | Web and mobile apps (e.g., Amazon RDS) |
+
+📌 **Tip:** Distributed and cloud databases are often combined in modern applications to ensure high availability and performance.
+
 
 ---
 
