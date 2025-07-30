@@ -24,6 +24,7 @@ This repository contains a comprehensive report covering key concepts in databas
 
 ![DBMS Mind Map](images/dbms_mind_map.png)
 
+
 *Image created using [Canva](https://www.canva.com/)*
 
 ---
