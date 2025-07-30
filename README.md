@@ -31,14 +31,20 @@ This repository contains a comprehensive report covering key concepts in databas
 
 ## 3️⃣ Roles in a Database System
 
+Understanding who does what in a database project is crucial. Below are key roles and their responsibilities:
+
 | Role                     | Description |
 |--------------------------|-------------|
-| System Analyst           | Gathers system requirements, models workflows |
-| Database Designer        | Plans the structure (schema, relationships) of the database |
-| Database Developer       | Implements the schema using SQL or a DBMS |
-| Database Administrator   | Manages performance, backups, security |
-| Application Developer    | Integrates database into applications (e.g., web or mobile) |
-| BI Developer             | Builds dashboards/reports using data from DB |
+| **System Analyst**       | Gathers user requirements and analyzes how the system should behave. Acts as a bridge between users and developers. |
+| **Database Designer**    | Designs the database schema including tables, fields, relationships, and constraints based on system requirements. |
+| **Database Developer**   | Implements the design using SQL and DBMS tools. Writes queries, procedures, and ensures data is stored efficiently. |
+| **Database Administrator (DBA)** | Manages the database's day-to-day operations: security, backups, performance tuning, user roles, and disaster recovery. |
+| **Application Developer**| Integrates the database with software applications (web/mobile). Uses SQL or ORM tools to fetch and update data. |
+| **BI Developer**         | Uses the data in the database to build reports, dashboards, and analytical models for business decision-making. |
+
+📌 **Note:** In small teams, some of these roles may be combined, while in larger enterprises, they are often specialized.
+
+
 
 ---
 
